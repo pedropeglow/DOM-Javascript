@@ -40,7 +40,7 @@ main {
 
 .botoes {
   display: grid;
-  grid-template-columns: 150px 150px;
+  grid-template-columns: 1fr 1fr 1fr;
 }
 
 .alterar {
@@ -170,7 +170,7 @@ main {
 }
 
 .producao {
-  margin-top: 1em;
+  margin-top: 0.5em;
   font-size: 2em;
   text-transform: uppercase;
   padding: 0.2em 1em;
