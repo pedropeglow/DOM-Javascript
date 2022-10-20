@@ -38,6 +38,34 @@ main {
   position: relative;
 }
 
+.botoes {
+  display: grid;
+  grid-template-columns: 150px 150px;
+}
+
+.alterar {
+  margin-top: 0.2em;
+  font-size: 1.3em;
+  margin: 0.2rem 0.2rem;
+  text-transform: uppercase;
+  padding: 0.5em 0.5em;
+  border: 3px solid var(--main-branco);
+  background: var(--main-branco);
+  clip-path: polygon(
+    100% 0,
+    100% calc(100% - 15px),
+    calc(100% - 30px) 100%,
+    0 100%,
+    0 0
+  );
+  cursor: pointer;
+}
+
+.alterar:hover {
+  background: var(--main-preto);
+  color: var(--main-branco);
+}
+
 .robo {
   height: 110%;
   z-index: 1;

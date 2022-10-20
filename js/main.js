@@ -58,3 +58,8 @@ function atualizaEstatistica(peca) {
       pecas[peca][elemento.dataset.estatistica];
   });
 }
+
+function trocaImagem(cor) {
+  document.querySelector(".robo").src =
+    "imgsRobotron/Robotron 2000 - " + cor + ".png";
+}
