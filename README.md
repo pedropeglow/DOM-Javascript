@@ -3,7 +3,7 @@
 Robotron 2000 -> Vamos usar o Vercel para o deploy desse site.
 
 <h4 align="center"> 
-	🏁  RObotron 🚀 Finalizado...  🏁
+	🏁  Robotron 🚀 Finalizado...  🏁
 	Link: https://vercel.com/pedropeglow/dom-javascript
 </h4>
 
